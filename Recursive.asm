@@ -1,6 +1,6 @@
 myData		SEGMENT PARA 'data'
     n			DW 10
-    RES         DB 10 DUP ('$')	
+    RES         	DB 10 DUP ('$')	
 myData		ENDS
 
 myStack		SEGMENT PARA STACK 'stack'

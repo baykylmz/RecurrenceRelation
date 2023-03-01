@@ -1,7 +1,7 @@
 myData		SEGMENT PARA 'data'
-    n			DW 500
+    n		DW 500
     RES         DB 500 DUP ('$')	
-	ARR		    DW 500 DUP('$')
+    ARR		DW 500 DUP('$')
 myData		ENDS
 
 myStack		SEGMENT PARA STACK 'stack'
